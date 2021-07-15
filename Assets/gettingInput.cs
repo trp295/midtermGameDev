@@ -34,7 +34,7 @@ public class gettingInput : MonoBehaviour
     public void displayInput(string input)
     {
         Debug.Log(input);
-        if(input == "0217")
+        if((input == "0207") || (input == "0217") || (input == "0227") || (input == "0237") || (input == "0247") || (input == "0257") || (input == "0267") || (input == "0277") || (input == "0287") || (input == "0297"))
         {
             Debug.Log("CORRECT PASSWORD");
             stateManager.GetComponent<StateManager>().batteryFound = true;
